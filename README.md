@@ -19,9 +19,12 @@ How to run our web application:
 2.cd to the webapplication folder
 
 3.change your root in the recommendation.py file.
-  In this python file, in order to acqure data, you should change all "your root" in root lisk:  "/your root/webapplication/bd/" as your own root where you put this webapplication folder.
+In this python file, in order to acqure data, you should change all "your root" in root lisk:  "/your root/webapplication/bd/" as your own root where you put this webapplication folder.
+
 
 4. In the terminal,cd to your webapplication folder and run following command
 (1).export FLASK_APP=application.py
+
 (2).flask run
+
 (3).access to http://127.0.0.1:5000/
